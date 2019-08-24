@@ -16,7 +16,7 @@ const Wrapper = styled.div`
   flex-wrap: wrap;
   padding: 50px;
   padding-top: 70px;
-  width: 80%;
+  width: 100%;
 `;
 
 class Mainpage extends Component {

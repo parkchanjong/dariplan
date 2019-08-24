@@ -13,4 +13,21 @@ const Content = styled.div`
   z-index: -1;
 `;
 
-export default () => <Content />;
+const Main = styled.div`
+  position: absolute;
+  text-align: center;
+  font-family: 'Tangerine', serif;
+  font-size: 180px;
+  text-shadow: 4px 4px 4px #aaa;
+  top: 300px;
+  width: 100%;
+`;
+
+export default () => {
+  return (
+    <>
+      <Content />
+      <Main>Dari Plan</Main>
+    </>
+  );
+};

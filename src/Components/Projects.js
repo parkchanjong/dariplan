@@ -34,7 +34,7 @@ function Food({ name, picture }) {
   );
 }
 
-export default () => (
+const Project = (id, name, image) => (
   <Post>
     <div>
       {foodILike.map(dish => (
@@ -43,3 +43,5 @@ export default () => (
     </div>
   </Post>
 );
+
+export default Project;
