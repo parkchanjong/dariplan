@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import { Helmet } from 'react-helmet';
 import Footer from './Footer';
@@ -19,31 +19,25 @@ const Wrapper = styled.div`
   width: 100%;
 `;
 
-class Mainpage extends Component {
-  render() {
-    return (
-      <>
-        <Helmet>
-          <title>Dari Plan</title>
-        </Helmet>
-        <Header />
-        <Bg />
-        <Wrapper>
-          {foodILike.map(food => (
-            <Projects
-              key={food.id}
-              id={food.id}
-              name={food.name}
-              image={food.image}
-            />
-          ))}
-        </Wrapper>
-        <About />
-        <Contact />
-        <Footer />
-      </>
-    );
-  }
-}
-
-export default Mainpage;
+export default () => (
+  <>
+    <Helmet>
+      <title>Dari Plan</title>
+    </Helmet>
+    <Header />
+    <Bg />
+    <Wrapper>
+      {foodILike.map(movie => (
+        <Projects
+          key={movie.id}
+          title={movie.title}
+          subtitle={movie.subtitle}
+          picture={movie.image}
+        />
+      ))}
+    </Wrapper>
+    <About />
+    <Contact />
+    <Footer />
+  </>
+);

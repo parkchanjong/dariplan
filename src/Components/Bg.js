@@ -9,7 +9,7 @@ const Content = styled.div`
   left: 0;
   top: 0;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   z-index: -1;
 `;
 

@@ -9,8 +9,8 @@ const Wrapper = styled.div`
   padding: 150px;
   padding-top: 70px;
   width: 100%;
-  margin-bottom: 150px;
-  margin-top: 150px;
+  margin-bottom: 100px;
+  margin-top: 100px;
 `;
 
 const Contact = styled.div`
@@ -51,7 +51,22 @@ export default () => (
       <Mideader>park hwdfsf</Mideader>
       <Text>
         contentcontentconte tentcontentcontonte tentcontentonte tentcontentonte
-        tentcontentonte tentcontente
+        tentcontentonte tentcontentecontentcontentconte tentcontentcontonte
+        tentcontentonte tentcontentonte tentcontentonte
+        tentcontentecontentcontentconte tentcontentcontonte tentcontentonte
+        tentcontentonte tentcontentonte tentcontentecontentcontentconte
+        tentcontentcontonte tentcontentonte tentcontentonte tentcontentonte
+        tentcontentecontentcontentconte tentcontentcontonte tentcontentonte
+        tentcontentonte tentcontentonte tentcontentecontentcontentconte
+        tentcontentcontonte tentcontentonte tentcontentonte tentcontentonte
+        tentcontentecontentcontentconte tentcontentcontonte tentcontentonte
+        tentcontentonte tentcontentonte tentcontentecontentcontentconte
+        tentcontentcontonte tentcontentonte tentcontentonte tentcontentonte
+        tentcontentecontentcontentconte tentcontentcontonte tentcontentonte
+        tentcontentonte tentcontentonte tentcontentecontentcontentconte
+        tentcontentcontonte tentcontentonte tentcontentonte tentcontentonte
+        tentcontentecontentcontentconte tentcontentcontonte tentcontentonte
+        tentcontentonte tentcontentonte tentcontente
       </Text>
     </Content>
   </Wrapper>
