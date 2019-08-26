@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/dariplan/static/js/main.b41b9eb2.chunk.js",
-    "main.js.map": "/dariplan/static/js/main.b41b9eb2.chunk.js.map",
+    "main.js": "/dariplan/static/js/main.2cfd333b.chunk.js",
+    "main.js.map": "/dariplan/static/js/main.2cfd333b.chunk.js.map",
     "runtime~main.js": "/dariplan/static/js/runtime~main.06c9ee50.js",
     "runtime~main.js.map": "/dariplan/static/js/runtime~main.06c9ee50.js.map",
-    "static/js/2.417d6faf.chunk.js": "/dariplan/static/js/2.417d6faf.chunk.js",
-    "static/js/2.417d6faf.chunk.js.map": "/dariplan/static/js/2.417d6faf.chunk.js.map",
+    "static/js/2.ef989c7b.chunk.js": "/dariplan/static/js/2.ef989c7b.chunk.js",
+    "static/js/2.ef989c7b.chunk.js.map": "/dariplan/static/js/2.ef989c7b.chunk.js.map",
     "index.html": "/dariplan/index.html",
-    "precache-manifest.ed9634458d24503950770c77ab830088.js": "/dariplan/precache-manifest.ed9634458d24503950770c77ab830088.js",
+    "precache-manifest.34063bbb975ee4c55f40e92b6890a726.js": "/dariplan/precache-manifest.34063bbb975ee4c55f40e92b6890a726.js",
     "service-worker.js": "/dariplan/service-worker.js",
     "static/media/about.jpg": "/dariplan/static/media/about.f6a64c55.jpg",
     "static/media/bg.jpg": "/dariplan/static/media/bg.97c61f0f.jpg"
