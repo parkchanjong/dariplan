@@ -8,7 +8,6 @@ const Post = styled.div`
   margin-bottom: 70px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
   font-weight: 300;
   padding: 20px;
   border-radius: 5px;
@@ -34,6 +33,7 @@ const Title = styled.div`
 `;
 
 const Subtitle = styled.div`
+  margin-top: 30px;
   font-size: 20px;
   color: black;
 `;
@@ -41,8 +41,10 @@ const Subtitle = styled.div`
 const Projects = ({ title, subtitle, picture }) => (
   <Post>
     <Img src={picture} />
-    <Title>{title}</Title>
-    <Subtitle>{subtitle}</Subtitle>
+    <Title>
+      {title}
+      <Subtitle>{subtitle}</Subtitle>
+    </Title>
   </Post>
 );
 
