@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import bg from '../asset/bg.jpg';
+import { Helmet } from 'react-helmet';
 
 const Content = styled.div`
   background-image: url(${bg});
@@ -9,7 +10,6 @@ const Content = styled.div`
   left: 0;
   top: 0;
   display: flex;
-  margin-bottom: 200px;
   z-index: -1;
 `;
 
@@ -26,6 +26,9 @@ const Main = styled.div`
 export default () => {
   return (
     <>
+      <Helmet>
+        <title>Dari Plan</title>
+      </Helmet>
       <Content />
       <Main>Dari Plan</Main>
     </>

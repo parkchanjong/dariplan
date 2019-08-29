@@ -1,4 +1,4 @@
-const foodILike = [
+const ProjectFile = [
   {
     id: 1,
     title: 'Kimchi',
@@ -16,10 +16,11 @@ const foodILike = [
   {
     id: 3,
     title: 'text',
-    subtitle: 'sfatesdf',
+    subtitle: `sfatesdffatesdfatesdfate
+      sdfatesdfatesdfatesdfatesdfatesdfatesdfatesdfatesdfatesd`,
     image:
       'https://images.unsplash.com/photo-1566766629599-b65de58b0183?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
   },
 ];
 
-export default foodILike;
+export default ProjectFile;

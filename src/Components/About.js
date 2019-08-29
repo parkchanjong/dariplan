@@ -9,8 +9,6 @@ const Wrapper = styled.div`
   padding: 150px;
   padding-top: 70px;
   width: 100%;
-  margin-bottom: 100px;
-  margin-top: 100px;
 `;
 
 const Contact = styled.div`
@@ -45,7 +43,7 @@ const Text = styled.div`
 
 export default () => (
   <Wrapper>
-    <Contact></Contact>
+    <Contact />
     <Content>
       <Header>about</Header>
       <Mideader>park hwdfsf</Mideader>

@@ -14,12 +14,15 @@ const Post = styled.div`
   color: ${props => props.theme.bgColor};
   box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
     0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+  }
 `;
 
 const Img = styled.img`
   position: relative;
   top: -50px;
-  max-width: 150px;
+  max-width: 200px;
   width: 100%;
   height: 200px;
   margin-right: 30px;
@@ -30,6 +33,7 @@ const Img = styled.img`
 const Title = styled.div`
   font-size: 50px;
   color: black;
+  width: 100px;
 `;
 
 const Subtitle = styled.div`
@@ -50,6 +54,7 @@ const Projects = ({ title, subtitle, picture }) => (
 
 Projects.propTypes = {
   name: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
 };
 

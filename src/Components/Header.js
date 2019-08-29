@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Logo } from './Icons';
+import { Link, withRouter } from 'react-router-dom';
 
 const Header = styled.header`
   width: 100%;
@@ -22,15 +23,23 @@ const HeaderWrapper = styled.div`
   width: 100%;
   max-width: ${props => props.theme.maxWidth};
   display: flex;
-  justify-content: left;
+  justify-content: center;
 `;
 
 const HeaderColumn = styled.div`
   width: 5%;
   text-align: center;
+
   &:first-child {
     margin-right: auto;
     text-align: left;
+    margin-left: 30px;
+  }
+  &:last-child {
+    margin-right: 15px;
+  }
+  @media only screen and (max-width: 1200px) {
+    width: 15%;
   }
 `;
 
@@ -39,11 +48,19 @@ export default () => {
     <Header>
       <HeaderWrapper>
         <HeaderColumn>
-          <Logo />
+          <Link to="/#">
+            <Logo />
+          </Link>
         </HeaderColumn>
-        <HeaderColumn>Projects</HeaderColumn>
-        <HeaderColumn>About</HeaderColumn>
-        <HeaderColumn>Contact</HeaderColumn>
+        <HeaderColumn>
+          <Link to="/Projects">Projects</Link>
+        </HeaderColumn>
+        <HeaderColumn>
+          <Link to="/About">About</Link>
+        </HeaderColumn>
+        <HeaderColumn>
+          <Link to="/Contact">Contact</Link>
+        </HeaderColumn>
       </HeaderWrapper>
     </Header>
   );
