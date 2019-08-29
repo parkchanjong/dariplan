@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2466aa55184eef7283937b8e9f9d6894",
+    "revision": "54ccf7f5a74f769c952f1f5c49ee9a31",
     "url": "/dariplan/index.html"
   },
   {
-    "revision": "ace113283971b9368d25",
-    "url": "/dariplan/static/js/2.ef989c7b.chunk.js"
+    "revision": "6a709d101afdcd85fed0",
+    "url": "/dariplan/static/js/2.94fbb909.chunk.js"
   },
   {
-    "revision": "57a5cbdb9edf70b46305",
-    "url": "/dariplan/static/js/main.2cfd333b.chunk.js"
+    "revision": "0d731d2e014fd925b561",
+    "url": "/dariplan/static/js/main.ee716929.chunk.js"
   },
   {
     "revision": "472b4bce5ec10445a524",

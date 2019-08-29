@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dariplan/precache-manifest.34063bbb975ee4c55f40e92b6890a726.js"
+  "/dariplan/precache-manifest.a194479478af7c5fb98793a058a23003.js"
 );
 
 self.addEventListener('message', (event) => {
