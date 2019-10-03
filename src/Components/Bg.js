@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import bg from '../asset/bg.jpg';
+import bg from '../asset/bg.png';
 import { Helmet } from 'react-helmet';
 
 const Content = styled.div`
@@ -11,6 +11,8 @@ const Content = styled.div`
   top: 0;
   display: flex;
   z-index: -1;
+  background-size: cover;
+  background-position: center;
 `;
 
 const Main = styled.div`

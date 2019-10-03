@@ -59,6 +59,7 @@ const Textarea = styled(TextareaAutosize)`
 
 export default () => (
   <Wrapper>
+    <Map />
     <Form>
       <form>
         <Input placeholder={'Email'} />
@@ -67,6 +68,5 @@ export default () => (
         <Button text={'Send'} />
       </form>
     </Form>
-    <Map />
   </Wrapper>
 );

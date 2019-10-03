@@ -15,7 +15,7 @@ export default createGlobalStyle`
         padding-top: 0px;
     }
     a {
-        color:${props => props.theme.blueColor};
+        color:${props => props.theme.blackColor};
         text-decoration:none;
     }
     input:focus{
