@@ -1,12 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import {
-  IoLogoInstagram,
-  IoLogoFacebook,
-  IoLogoLinkedin,
-  IoLogoYoutube,
-  IoLogoTwitter,
-} from 'react-icons/io';
+import { IoLogoInstagram, IoIosCafe } from 'react-icons/io';
 
 const Footer = styled.footer`
   display: flex;
@@ -38,28 +32,13 @@ export default () => (
   <Footer>
     <List>
       <ListItem>
-        <Link href="#">
+        <Link href="https://www.instagram.com/dari_plan/">
           <IoLogoInstagram size={30} />
         </Link>
       </ListItem>
       <ListItem>
-        <Link href="#">
-          <IoLogoFacebook size={30} />
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Link href="#">
-          <IoLogoLinkedin size={30} />
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Link href="#">
-          <IoLogoYoutube size={30} />
-        </Link>
-      </ListItem>
-      <ListItem>
-        <Link href="#">
-          <IoLogoTwitter size={30} />
+        <Link href="https://cafe.naver.com/dariplan">
+          <IoIosCafe size={30} />
         </Link>
       </ListItem>
     </List>

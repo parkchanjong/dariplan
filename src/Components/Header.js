@@ -29,7 +29,6 @@ const HeaderWrapper = styled.div`
 const HeaderColumn = styled.div`
   width: 5%;
   text-align: center;
-
   &:first-child {
     margin-right: auto;
     text-align: left;
@@ -51,9 +50,6 @@ export default () => {
           <Link to="/#">
             <Logo />
           </Link>
-        </HeaderColumn>
-        <HeaderColumn>
-          <Link to="/Projects">Projects</Link>
         </HeaderColumn>
         <HeaderColumn>
           <Link to="/About">About</Link>

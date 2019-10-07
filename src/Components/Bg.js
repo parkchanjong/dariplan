@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import bg from '../asset/bg.png';
+import bg from '../asset/bg2.png';
 import { Helmet } from 'react-helmet';
 
 const Content = styled.div`
